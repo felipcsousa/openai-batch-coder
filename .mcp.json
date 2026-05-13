@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "codex-batch-coder": {
+      "command": "node",
+      "args": ["./bin/batch-coder-mcp.js"]
+    }
+  }
+}

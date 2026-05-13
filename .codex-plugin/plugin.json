@@ -1,0 +1,23 @@
+{
+  "name": "codex-batch-coder",
+  "version": "0.1.0",
+  "description": "Queue well-scoped coding tasks for OpenAI Batch patch generation and apply candidates in isolated worktrees.",
+  "license": "MIT",
+  "keywords": ["codex", "batch", "openai", "coding-agent"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Codex Batch Coder",
+    "shortDescription": "Run queued coding patch candidates through OpenAI Batch.",
+    "longDescription": "Codex Batch Coder packages localized coding tasks, submits them to the OpenAI Batch API, imports structured patch candidates, and validates them in isolated git worktrees.",
+    "developerName": "Local",
+    "category": "Developer Tools",
+    "capabilities": ["Batch", "Code", "MCP"],
+    "defaultPrompt": [
+      "Queue this patch for Batch",
+      "Show Batch Coder status",
+      "Submit queued coding tasks"
+    ],
+    "brandColor": "#2563EB"
+  }
+}
